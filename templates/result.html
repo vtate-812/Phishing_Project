@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 2em;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        .result-box {
+            background: white;
+            padding: 2em;
+            border-radius: 10px;
+            display: inline-block;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h2 {
+            margin-bottom: 1em;
+        }
+        p {
+            font-size: 1.1em;
+            margin: 0.5em 0;
+        }
+        a {
+            margin-top: 2em;
+            display: inline-block;
+            text-decoration: none;
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+    <div class="result-box">
+    
+    <h2>Result</h2>
+<p><strong>URL:</strong> {{ url }}</p>
+<p><strong>Model Used:</strong> {{ model_used }}</p>
+<p><strong>Prediction:</strong> {{ result }}</p>
+
+<a href="/">🔙 Check another URL</a>
+</div>
+</body>
+</html>
