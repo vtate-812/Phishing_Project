@@ -62,4 +62,5 @@ Phishing_Project/
 ├── static/
 │   └── style.css
 ├── requirements.txt
-└── README.md```
+└── README.md
+```
