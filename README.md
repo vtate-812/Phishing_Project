@@ -47,8 +47,8 @@ A machine learning–based web application that detects phishing websites by ana
 ---
 
 ## 📁 Project Structure
-
-```Phishing_Project/
+```
+Phishing_Project/
 │
 ├── app.py                     # Flask application
 ├── feature_extraction.py      # URL feature extraction logic
